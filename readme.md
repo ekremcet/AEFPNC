@@ -87,5 +87,14 @@ evaluate_dataset("AEFPNC", "Kodak24")
 
 ## Citation
 ```
-
+@article{cetinkaya2020denoising,
+  title={Image denoising using deep convolutional autoencoder with feature pyramids},
+  author={Cetinkaya, Ekrem and Kirac, M. Furkan},
+  journal={Turkish Journal of Electrical Engineering \& Computer Sciences},
+  volume={},
+  number={},
+  pages={},
+  year={2020},
+  publisher={The Scientific and Technological Research Council of Turkey}
+}
 ```
