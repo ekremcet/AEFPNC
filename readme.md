@@ -1,6 +1,20 @@
 # Image Denoising Using Deep Convolutional Autoencoder with Feature Pyramids
 
-### [Paper](http://journals.tubitak.gov.tr/elektrik/issues/elk-20-28-4/elk-28-4-20-1911-138.pdf)
+## [[Paper]](http://journals.tubitak.gov.tr/elektrik/issues/elk-20-28-4/elk-28-4-20-1911-138.pdf)
+
+## Citation
+```
+@article{cetinkaya2020denoising,
+  title={Image denoising using deep convolutional autoencoder with feature pyramids},
+  author={Cetinkaya, Ekrem and Kirac, M. Furkan},
+  journal={Turkish Journal of Electrical Engineering \& Computer Sciences},
+  volume={28},
+  number={4},
+  pages={2096-2109},
+  year={2020},
+  publisher={The Scientific and Technological Research Council of Turkey}
+}
+```
 
 ## Abstract
 Image denoising is one of the fundamental problems in image processing field since it is required by many computer vision applications. Various approaches have been used in image denoising throughout the years from spatial filtering to model based approaches. Having outperformed all traditional methods, neural network based discriminative methods have gained popularity in the recent years. However, most of these methods still struggle to achieve flexibility against various noise levels and types. In this paper, we propose a deep convolutional autoencoder combined with a variant of feature pyramid network for image denoising. We use simulated data in Blender software along with corrupted natural images during training to improve robustness against various noise levels and types. Our experimental results show that proposed method can achieve competitive performance in blind Gaussian denoising with significantly less training time required compared to state-of-the-art methods. Extensive experiments showed us our method gives promising performance in wide range of noise levels with a single network.
@@ -85,18 +99,4 @@ Pre-trained models for both color and grayscale denoising can be found in **Chec
 ```python
 evaluate_dataset("AEFPNC", "Kodak24")
 #  First parameter is the name of checkpoint file and second parameter is the test dataset
-```
-
-## Citation
-```
-@article{cetinkaya2020denoising,
-  title={Image denoising using deep convolutional autoencoder with feature pyramids},
-  author={Cetinkaya, Ekrem and Kirac, M. Furkan},
-  journal={Turkish Journal of Electrical Engineering \& Computer Sciences},
-  volume={28},
-  number={4},
-  pages={2096-2109},
-  year={2020},
-  publisher={The Scientific and Technological Research Council of Turkey}
-}
 ```
