@@ -10,7 +10,7 @@ preferred-citation:
   title: "Image denoising using deep convolutional autoencoder with feature pyramids"
   doi: 10.3906/elk-1911-138
   url : "https://doi.org/10.3906/elk-1911-138"
-  type: journal-paper
+  type: article
   pages: "2096--2109"
   year: "2020"
   collection-title: "TURKISH JOURNAL OF ELECTRICAL ENGINEERING & COMPUTER SCIENCES"
