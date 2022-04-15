@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article from preferred-citation and the software itself."
+preferred-citation:
+  authors:
+    - family-names: "Çetinkaya"
+      given-names: "Ekrem"
+      orcid: "https://orcid.org/0000-0002-6084-6249"
+    - family-names: "Kirac"
+      given-names: "M. Furkan"
+  title: "Image denoising using deep convolutional autoencoder with feature pyramids"
+  doi: 10.3906/elk-1911-138
+  url : "https://doi.org/10.3906/elk-1911-138"
+  type: journal-paper
+  pages: "2096--2109"
+  year: "2020"
+  collection-title: "TURKISH JOURNAL OF ELECTRICAL ENGINEERING \& COMPUTER SCIENCES"
+  collection-type: article
+  publisher:
+        name: "The Scientific and Technological Research Council of Turkey"
+title: "Image denoising using deep convolutional autoencoder with feature pyramids"
+version: 1.0.0
+date-released: 2020-07-29
+url: "https://github.com/ekremcet/AEFPNC"
